@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*-----S = 初始化-----*/
+html{
+color:#000; background:#fff;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+margin:0; padding:0
+}
+table{
+border-collapse:collapse; border-spacing:0
+}
+em, strong, b, u, i{
+font-style:normal; font-weight:normal
+}
+ol, ul{
+list-style:none
+}
+button{
+cursor:pointer;
+}
+h1, h2, h3{
+font-size:100%; font-weight:normal
+}
+input, textarea, select{
+font-family:inherit; font-size:inherit; font-weight:inherit; *font-size:100%
+}
+img{
+border:0 none;
+}
+select, input {
+vertical-align: middle;
+}
+textarea {
+resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+border: 0;
+vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+border-collapse: collapse;			/*合并外边线*/
+}
+
+.clearfix:after{
+content:"";
+display:block;
+height:0;
+visibility:hidden;
+clear:both;
+}
+.clearfix{ zoom:1; }
+
+a, a:hover, a:focus, a:visited {
+text-decoration:none;
+}
+
+/*-----E = 初始化-----*/
+
+/*-----S = 公共类-----*/
+.fl{
+float:left
+}
+.fr{
+float:right
+}
+.hide{
+display:none
+}
+/*-----E = 公共类-----*/
+
