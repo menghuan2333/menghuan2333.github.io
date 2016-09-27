@@ -67,7 +67,7 @@ $(function () {
     myOwnJudge(".Q5_T", ".Q5_F");
     myOwnJudge(".Q6_T", ".Q6_F", function () {
         setTimeout(function () {
-            alert("111")
+            window.location.href = 'http://menghuan2333.oschina.io/resume/'
         }, 1000)
     });
 
@@ -83,6 +83,9 @@ $(function () {
     $('.authorWay').click(function () {
         $("body").css("opacity", "0.5");
         $(".FBIwarning").fadeIn(1000)
+        setTimeout(function () {
+            window.location.href = 'http://menghuan2333.oschina.io/resume/'
+        },1000)
     })
 
 
