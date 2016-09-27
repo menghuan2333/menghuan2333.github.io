@@ -33,7 +33,10 @@ $(function () {
             })
         }, 3000)
     })
-
+	// 点击手速按钮
+	$('.ball_r').click(function(){
+		window.location.href = '../html/index.html'
+	})
     //选择
     //自己封装一个判断函数
     var myOwnJudge = function (selectT, selectF, fn) {
